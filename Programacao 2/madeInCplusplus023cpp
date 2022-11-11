@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+void ehmaior(string a, string b){
+    if(a > b)
+        cout << "A primeira string é maior";
+    else if(b > a)
+        cout << "A segunda string é maior";
+    else
+        cout << "As strings são iguais";
+    
+}
+
+
+int main(){
+    string a, b;
+    cout << "Digite a string: ";
+    cin >> a;
+    
+}
